@@ -1,0 +1,172 @@
+{
+  "project_info": {
+    "project_number": "569109375285",
+    "firebase_url": "https://bait2123-202006-01.firebaseio.com",
+    "project_id": "bait2123-202006-01",
+    "storage_bucket": "bait2123-202006-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569109375285:android:a0a35f8af7e2b07d7e847c",
+        "android_client_info": {
+          "package_name": "com.example.homesmarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_3_S-QNm8nxfTUzmVjaNewsxxbE6AaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569109375285:android:675cbdb79d74fca77e847c",
+        "android_client_info": {
+          "package_name": "com.example.ihome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_3_S-QNm8nxfTUzmVjaNewsxxbE6AaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569109375285:android:465c9497b1e3ade67e847c",
+        "android_client_info": {
+          "package_name": "com.example.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_3_S-QNm8nxfTUzmVjaNewsxxbE6AaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569109375285:android:2bf1f4898447f1cf7e847c",
+        "android_client_info": {
+          "package_name": "com.example.iotass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_3_S-QNm8nxfTUzmVjaNewsxxbE6AaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569109375285:android:2f80b739bf8b368b7e847c",
+        "android_client_info": {
+          "package_name": "com.example.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569109375285-b34kpemntcn56s8stglvk1kuslcqv8fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smarthome",
+            "certificate_hash": "df1ec59937863beeb859340da9d6e4c57434493f"
+          }
+        },
+        {
+          "client_id": "569109375285-u8g6hcvj7vvudqc291cb82bb5l38fejt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smarthome",
+            "certificate_hash": "b7b522c244925f46ad74d4b93f9d501c2a95bb47"
+          }
+        },
+        {
+          "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ_3_S-QNm8nxfTUzmVjaNewsxxbE6AaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569109375285-ivaj8s0t3rtceh2rllkmndbpeboii3k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
