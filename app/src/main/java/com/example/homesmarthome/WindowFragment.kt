@@ -40,7 +40,6 @@ class WindowFragment : Fragment() {
 
         mainHandler1.post(object : Runnable {
             override fun run() {
-
                 val string1 = "PI_01_" + getDate()
                 getHour()
                 ref = FirebaseDatabase.getInstance().getReference(string1).child(getHour())
@@ -55,9 +54,7 @@ class WindowFragment : Fragment() {
                                 //var map = mutableMapOf<String,Any>()
                                 //map["humid"] = "45"
                                 //ref.child(h.key.toString()).updateChildren(map)
-
                                 root.percentage.text = h.child("ultra2").getValue().toString() + " %"
-
                                 root.humidPercen.apply {
                                     progressMax = 100f
                                     setProgressWithAnimation(h.child("ultra2").getValue().toString().toFloat(), 1000)
@@ -92,7 +89,6 @@ class WindowFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
