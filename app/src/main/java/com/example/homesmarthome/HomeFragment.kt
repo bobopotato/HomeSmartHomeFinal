@@ -49,7 +49,7 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         viewReportButton.setOnClickListener {
-            startActivity(Intent(context, smartWindowReport::class.java))
+            startActivity(Intent(context, selectReport::class.java))
 
         }
     }

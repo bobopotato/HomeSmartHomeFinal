@@ -34,7 +34,7 @@ class WindowFragment : Fragment() {
         val root: View = inflater.inflate(R.layout.fragment_window, container, false)
 
         ref1 = FirebaseDatabase.getInstance().getReference("PI_01_CONTROL")
-
+        root.activation.text = "Deactivated"
 
 
         val mainHandler1 = Handler(Looper.getMainLooper())
@@ -106,16 +106,16 @@ class WindowFragment : Fragment() {
                     }
                 })
 
-                if(root.activation.text == "Activated"){
+
                     if(root.windowStatus.text == "All Closed"){
                         ref1.child("lcdtext").setValue("Window Is Closed");
                     }
                     else{
                         ref1.child("lcdtext").setValue("Window Is Opened");
                     }
-                }
 
-                mainHandler1.postDelayed(this, 10000)
+
+                mainHandler1.postDelayed(this, 5000)
 
             }
         })
