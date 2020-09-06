@@ -69,23 +69,23 @@ class WindowFragment : Fragment() {
                     override fun onDataChange(snapshot: DataSnapshot) {
                         if(snapshot.exists()) {
                             for (h in snapshot.children) {
-                                Log.d("Errorhello", "zzzz : " + h.key.toString())
-                                root.percentage.text = h.child("ultra2").getValue().toString() + " %"
+                                //Log.d("Errorhello", "zzzz : " + h.key.toString())
+                                root.percentage.text = h.child("humid").getValue().toString() + " %"
                                 root.humidPercen.apply {
                                     progressMax = 100f
-                                    setProgressWithAnimation(h.child("ultra2").getValue().toString().toFloat(), 1000)
+                                    setProgressWithAnimation(h.child("humid").getValue().toString().toFloat(), 1000)
                                     progressBarWidth = 10f
                                     backgroundProgressBarWidth = 4f
                                     progressBarColor = rgb(38, 153, 251)
                                 }
-                                if (h.child("ultra2").getValue().toString().toFloat() >= 41 && h.child("ultra2").getValue().toString().toFloat() <= 59) {
+                                if (h.child("humid").getValue().toString().toFloat() >= 41 && h.child("humid").getValue().toString().toFloat() <= 59) {
                                     root.weatherText.text = "Today is a bit cloudy, it might be raining soon."
                                     root.weatherType.text = "Cloudy"
                                     root.weatherImage.setImageResource(R.drawable.cloudy)
                                     if(root.activation.text == "Activated"){
                                         root.windowStatus.text = "All Closed"
                                     }
-                                } else if (h.child("ultra2").getValue().toString().toFloat() <= 40) {
+                                } else if (h.child("humid").getValue().toString().toFloat() <= 40) {
                                     root.weatherText.text = "Today is a sunny day, it won't be raining for the next few hours."
                                     root.weatherType.text = "Sunny"
                                     root.weatherImage.setImageResource(R.drawable.sunny)
