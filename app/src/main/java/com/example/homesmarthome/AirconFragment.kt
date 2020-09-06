@@ -51,7 +51,7 @@ class AirconFragment : Fragment() {
             override fun onDataChange(snapshot: DataSnapshot) {
 
                 if(snapshot.exists()) {
-                    checkActive = snapshot.child("relay").getValue().toString().toInt()
+                    checkActive = snapshot.child("buzzer").getValue().toString().toInt()
                     if (stop == 0) {
                         stop+=1 ;
                         if (checkActive == 1) {
@@ -89,7 +89,7 @@ class AirconFragment : Fragment() {
         }
 
         root.activateBtn.setOnClickListener{
-            ref1.child("relay").setValue("1");
+            ref1.child("buzzer").setValue("1");
             ref1.child("lcdtext").setValue("Aircon Is Closed");
             root.activateTxt.text="Activated"
             root.closeBtn.isEnabled=false
@@ -100,7 +100,7 @@ class AirconFragment : Fragment() {
         }
 
         root.deactivateBtn.setOnClickListener {
-            ref1.child("relay").setValue("0");
+            ref1.child("buzzer").setValue("0");
             ref1.child("lcdtext").setValue("Aircon Is Closed");
             root.activateTxt.text="Deactivated"
             root.closeBtn.isEnabled=true
